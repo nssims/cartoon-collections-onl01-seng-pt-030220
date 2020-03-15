@@ -1,4 +1,4 @@
-ddef roll_call_dwarves(array)
+def roll_call_dwarves(array)
   array.collect.with_index do |name, index|
     name_place = index + 1
     puts "#{name_place} #{name}"
